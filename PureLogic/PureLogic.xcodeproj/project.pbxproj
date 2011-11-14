@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9B02391471754700031677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9B02381471754700031677 /* UIKit.framework */; };
+		0E9B023B1471754700031677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9B023A1471754700031677 /* Foundation.framework */; };
+		0E9B023D1471754700031677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9B023C1471754700031677 /* CoreGraphics.framework */; };
+		0E9B02431471754700031677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E9B02411471754700031677 /* InfoPlist.strings */; };
+		0E9B02461471754700031677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B02451471754700031677 /* main.m */; };
+		0E9B02491471754700031677 /* PureLogicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B02481471754700031677 /* PureLogicAppDelegate.m */; };
+		0E9B024C1471754700031677 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E9B024A1471754700031677 /* MainWindow.xib */; };
+		0E9B024F1471754700031677 /* PureLogicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B024E1471754700031677 /* PureLogicViewController.m */; };
+		0E9B02521471754700031677 /* PureLogicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E9B02501471754700031677 /* PureLogicViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E9B02341471754700031677 /* PureLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E9B02381471754700031677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E9B023A1471754700031677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E9B023C1471754700031677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E9B02401471754700031677 /* PureLogic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PureLogic-Info.plist"; sourceTree = "<group>"; };
+		0E9B02421471754700031677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E9B02441471754700031677 /* PureLogic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PureLogic-Prefix.pch"; sourceTree = "<group>"; };
+		0E9B02451471754700031677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E9B02471471754700031677 /* PureLogicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PureLogicAppDelegate.h; sourceTree = "<group>"; };
+		0E9B02481471754700031677 /* PureLogicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLogicAppDelegate.m; sourceTree = "<group>"; };
+		0E9B024B1471754700031677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0E9B024D1471754700031677 /* PureLogicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PureLogicViewController.h; sourceTree = "<group>"; };
+		0E9B024E1471754700031677 /* PureLogicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLogicViewController.m; sourceTree = "<group>"; };
+		0E9B02511471754700031677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PureLogicViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9B02311471754700031677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9B02391471754700031677 /* UIKit.framework in Frameworks */,
+				0E9B023B1471754700031677 /* Foundation.framework in Frameworks */,
+				0E9B023D1471754700031677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9B02291471754700031677 = {
+			isa = PBXGroup;
+			children = (
+				0E9B023E1471754700031677 /* PureLogic */,
+				0E9B02371471754700031677 /* Frameworks */,
+				0E9B02351471754700031677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E9B02351471754700031677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B02341471754700031677 /* PureLogic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E9B02371471754700031677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B02381471754700031677 /* UIKit.framework */,
+				0E9B023A1471754700031677 /* Foundation.framework */,
+				0E9B023C1471754700031677 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E9B023E1471754700031677 /* PureLogic */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B02471471754700031677 /* PureLogicAppDelegate.h */,
+				0E9B02481471754700031677 /* PureLogicAppDelegate.m */,
+				0E9B024A1471754700031677 /* MainWindow.xib */,
+				0E9B024D1471754700031677 /* PureLogicViewController.h */,
+				0E9B024E1471754700031677 /* PureLogicViewController.m */,
+				0E9B02501471754700031677 /* PureLogicViewController.xib */,
+				0E9B023F1471754700031677 /* Supporting Files */,
+			);
+			path = PureLogic;
+			sourceTree = "<group>";
+		};
+		0E9B023F1471754700031677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B02401471754700031677 /* PureLogic-Info.plist */,
+				0E9B02411471754700031677 /* InfoPlist.strings */,
+				0E9B02441471754700031677 /* PureLogic-Prefix.pch */,
+				0E9B02451471754700031677 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E9B02331471754700031677 /* PureLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9B02551471754700031677 /* Build configuration list for PBXNativeTarget "PureLogic" */;
+			buildPhases = (
+				0E9B02301471754700031677 /* Sources */,
+				0E9B02311471754700031677 /* Frameworks */,
+				0E9B02321471754700031677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLogic;
+			productName = PureLogic;
+			productReference = 0E9B02341471754700031677 /* PureLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E9B022B1471754700031677 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0E9B022E1471754700031677 /* Build configuration list for PBXProject "PureLogic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E9B02291471754700031677;
+			productRefGroup = 0E9B02351471754700031677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E9B02331471754700031677 /* PureLogic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E9B02321471754700031677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9B02431471754700031677 /* InfoPlist.strings in Resources */,
+				0E9B024C1471754700031677 /* MainWindow.xib in Resources */,
+				0E9B02521471754700031677 /* PureLogicViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E9B02301471754700031677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9B02461471754700031677 /* main.m in Sources */,
+				0E9B02491471754700031677 /* PureLogicAppDelegate.m in Sources */,
+				0E9B024F1471754700031677 /* PureLogicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E9B02411471754700031677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E9B02421471754700031677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E9B024A1471754700031677 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E9B024B1471754700031677 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0E9B02501471754700031677 /* PureLogicViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E9B02511471754700031677 /* en */,
+			);
+			name = PureLogicViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E9B02531471754700031677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E9B02541471754700031677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0E9B02561471754700031677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PureLogic/PureLogic-Prefix.pch";
+				INFOPLIST_FILE = "PureLogic/PureLogic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E9B02571471754700031677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PureLogic/PureLogic-Prefix.pch";
+				INFOPLIST_FILE = "PureLogic/PureLogic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E9B022E1471754700031677 /* Build configuration list for PBXProject "PureLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9B02531471754700031677 /* Debug */,
+				0E9B02541471754700031677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E9B02551471754700031677 /* Build configuration list for PBXNativeTarget "PureLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9B02561471754700031677 /* Debug */,
+				0E9B02571471754700031677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E9B022B1471754700031677 /* Project object */;
+}
